@@ -1,4 +1,4 @@
-@extends('website\layout\cashko')
+@extends('website.layout.cashko')
 
 @section('content')
 <div class="privacy_policy_banner">
