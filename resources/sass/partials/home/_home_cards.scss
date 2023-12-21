@@ -1,0 +1,116 @@
+.home_cards{
+    .container{
+        border-left: 1px solid $gray-color;
+        border-right: 1px solid $gray-color;
+        background-color: $pink-color;
+
+        .cards-container{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content:space-around;
+            align-items:center;
+            padding: 2rem;
+            padding-top: 0;
+            margin-top: -1rem;
+            padding-bottom: 7rem;
+
+            .card-cashko{
+                background-color: $primary-color;
+                color: $white-color;
+                min-width: 20rem;
+                max-width: 25rem;
+                padding: 2rem;
+
+                border-radius: 2rem;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                height: 22rem;
+
+                .img-cashko{
+                    height: 8rem;
+                    width: auto;
+                    margin-bottom: 1rem;
+                }
+
+                p{
+                    text-align: center;
+                }
+
+                position: relative;
+                a{
+                    position: absolute;
+                    bottom: 4rem;
+                }
+                margin-top: 2rem;
+            }
+
+            .card-sme{
+                background-color: $white-color;
+                color: $primary-color;
+
+                min-width: 20rem;
+                max-width: 25rem;
+                padding: 2rem;
+
+                border-radius: 2rem;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                height: 22rem;
+
+                .img-sme{
+                    height: 8rem;
+                    width: auto;
+                    margin-bottom: 1rem;
+                }
+
+                p{
+                    text-align: center;
+                }
+
+                position: relative;
+                a{
+                    position: absolute;
+                    bottom: 4rem;
+                }
+                margin-top: 2rem;
+            }
+
+            .card-ruralnet{
+                background-color: $gray-color;
+                color: $primary-color;
+
+                min-width: 20rem;
+                max-width: 25rem;
+                padding: 2rem;
+
+                border-radius: 2rem;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                height: 22rem;
+                .img-ruralnet{
+                    height: 6rem;
+                    width: auto;
+                    margin-top: 1rem;
+                    margin-bottom: 1.5rem;
+                }
+
+                p{
+                    text-align: center;
+                }
+
+                position: relative;
+                a{
+                    position: absolute;
+                    bottom: 4rem;
+                }
+                margin-top: 2rem;
+            }
+        }
+    }
+}

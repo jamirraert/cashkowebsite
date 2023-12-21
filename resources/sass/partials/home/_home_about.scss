@@ -1,0 +1,506 @@
+.home_about{
+    .container{
+        background-color: $lightpink-color;
+        position: relative;
+        z-index: -2;
+        color: $primary-color;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 105rem;
+        
+        .hand{
+
+            position: absolute;
+            top: 0;
+            left: 0;
+
+            max-width: 100%;
+            display: block; /* Remove extra space below the image */
+            height: auto; /* Maintain aspect ratio */
+            z-index: -1;
+        }
+
+        .hand2{
+            position: absolute;
+            top: 18rem;
+            left: 0;
+            max-width: 100%;
+            display: block; /* Remove extra space below the image */
+            height: auto; /* Maintain aspect ratio */
+            z-index: -1;
+            display: none;
+        }
+        
+        > p:nth-child(3){
+            color: $orange-color;
+            font-size: 1.8rem;
+            font-weight: 700;
+            padding-top: 7rem;
+        }
+
+        > p:nth-child(4){
+            color: $primary-color;
+            font-size: 1.8rem;
+            padding-top: 2rem;
+            width: 52rem;
+            font-weight: 600;
+            align-items: center;
+            text-align: center;
+        }
+
+        > div:nth-child(5){
+            position: absolute;
+            width: 33rem;
+            top: 24rem;
+            left: 12rem;
+            p{
+                padding-bottom:1rem;
+                font-size: 1.3rem;
+            }
+        }
+
+        > div:nth-child(6){
+            width: 33rem;
+            position: absolute;
+            bottom: 12rem;
+            right: 12rem;
+            p{
+                padding-bottom:1rem;
+                font-size: 1.3rem;
+            }
+        }
+    }
+}
+@media screen and (max-width: 1534px) {
+    .home_about{
+        .container{
+            background-color: $lightpink-color;
+            position: relative;
+            z-index: -2;
+            color: $primary-color;
+    
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 78rem; //
+            
+            .hand{
+    
+                position: absolute;
+                top: 0;
+                left: 0;
+    
+                max-width: 100%;
+                display: block;
+                height: auto; 
+                z-index: -1;
+                display: none; // modified
+            }
+    
+            .hand2{
+                position: absolute;
+                top: 18rem;
+                left: 0;
+                max-width: 100%;
+                display: block; 
+                height: auto;
+                z-index: -1;
+                display: block; // modified
+            }
+            
+            > p:nth-child(3){
+                color: $orange-color;
+                font-size: 1.8rem;
+                font-weight: 700;
+                padding-top: 7rem;
+            }
+    
+            > p:nth-child(4){
+                color: $primary-color;
+                font-size: 1.8rem;
+                padding-top: 1rem;
+                width: 52rem;
+                font-weight: 600;
+                align-items: center;
+                text-align: center;
+            }
+    
+            > div:nth-child(5){
+                margin-top:28rem; //
+                padding: 1rem;
+                position: static; //
+                max-width: 70rem; //
+                width: 100%; //
+               
+                p{
+                    padding-bottom:1rem;
+                    font-size: 1.3rem;
+                    padding-left: 2rem; //
+                    padding-right: 2rem; //
+                }
+            }
+    
+            > div:nth-child(6){
+                padding: 1rem; //
+                position: static;//
+                padding-top: 0;
+                max-width: 70rem;//
+                width: 100%;//
+                p{
+                    padding-bottom:1rem;
+                    font-size: 1.3rem;
+                    padding-left: 2rem; //
+                    padding-right: 2rem; //
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .home_about{
+        .container{
+            background-color: $lightpink-color;
+            position: relative;
+            z-index: -2;
+            color: $primary-color;
+    
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 88rem; 
+            
+            .hand{
+    
+                position: absolute;
+                top: 0;
+                left: 0;
+    
+                max-width: 100%;
+                display: block;
+                height: auto; 
+                z-index: -1;
+                display: none; 
+            }
+    
+            .hand2{
+                position: absolute;
+                top: 23rem; //
+                left: 0;
+                max-width: 100%;
+                display: block; 
+                height: auto;
+                z-index: -1;
+                display: block; 
+            }
+            
+            > p:nth-child(3){
+                color: $orange-color;
+                font-size: 1.8rem;
+                font-weight: 700;
+                padding-top: 7rem;
+            }
+    
+            > p:nth-child(4){
+                color: $primary-color;
+                font-size: 1.8rem;
+                padding-top: 2rem;
+                width: 34rem;
+                font-weight: 600;
+                align-items: center;
+                text-align: center;
+            }
+    
+            > div:nth-child(5){
+                margin-top:20rem; //
+                padding: 1rem;
+                position: static; 
+                max-width: 70rem; 
+                width: 100%; 
+               
+                p{
+                    padding-bottom:1rem;
+                    font-size: 1.3rem;
+                    padding-left: 2rem; 
+                    padding-right: 2rem; 
+                }
+            }
+    
+            > div:nth-child(6){
+                padding: 1rem; 
+                padding-top: 0;
+                position: static;
+                max-width: 70rem;
+                width: 100%;
+                p{
+                    padding-bottom:1rem;
+                    font-size: 1.3rem;
+                    padding-left: 2rem; 
+                    padding-right: 2rem;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 800px) {
+    .home_about{
+        .container{
+            background-color: $lightpink-color;
+            position: relative;
+            z-index: -2;
+            color: $primary-color;
+    
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 90rem; 
+            
+            .hand{
+    
+                position: absolute;
+                top: 0;
+                left: 0;
+    
+                max-width: 100%;
+                display: block;
+                height: auto; 
+                z-index: -1;
+                display: none; 
+            }
+    
+            .hand2{
+                position: absolute;
+                top: 23rem; //
+                left: 0;
+                max-width: 100%;
+                display: block; 
+                height: auto;
+                z-index: -1;
+                display: block; 
+            }
+            
+            > p:nth-child(3){
+                color: $orange-color;
+                font-size: 1.8rem;
+                font-weight: 700;
+                padding-top: 7rem;
+            }
+    
+            > p:nth-child(4){
+                color: $primary-color;
+                font-size: 1.8rem;
+                padding-top: 2rem;
+                width: 34rem;
+                font-weight: 600;
+                align-items: center;
+                text-align: center;
+            }
+    
+            > div:nth-child(5){
+                margin-top:20rem; //
+                padding: 1rem;
+                position: static; 
+                max-width: 70rem; 
+                width: 100%; 
+               
+                p{
+                    padding-bottom:1rem;
+                    font-size: 1.3rem;
+                    padding-left: 2rem; 
+                    padding-right: 2rem; 
+                }
+            }
+    
+            > div:nth-child(6){
+                padding: 1rem; 
+                padding-top: 0;
+                position: static;
+                max-width: 70rem;
+                width: 100%;
+                p{
+                    padding-bottom:1rem;
+                    font-size: 1.3rem;
+                    padding-left: 2rem; 
+                    padding-right: 2rem;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 708px) {
+    .home_about{
+        .container{
+            background-color: $lightpink-color;
+            position: relative;
+            z-index: -2;
+            color: $primary-color;
+    
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100rem; 
+            
+            .hand{
+    
+                position: absolute;
+                top: 0;
+                left: 0;
+    
+                max-width: 100%;
+                display: block;
+                height: auto; 
+                z-index: -1;
+                display: none; 
+            }
+    
+            .hand2{
+                position: absolute;
+                top: 23rem; //
+                left: 0;
+                max-width: 100%;
+                display: block; 
+                height: auto;
+                z-index: -1;
+                display: block; 
+            }
+            
+            > p:nth-child(3){
+                color: $orange-color;
+                font-size: 1.8rem;
+                font-weight: 700;
+                padding-top: 7rem;
+            }
+    
+            > p:nth-child(4){
+                color: $primary-color;
+                font-size: 1.8rem;
+                padding-top: 2rem;
+                width: 34rem;
+                font-weight: 600;
+                align-items: center;
+                text-align: center;
+            }
+    
+            > div:nth-child(5){
+                margin-top:20rem; //
+                padding: 1rem;
+                position: static; 
+                max-width: 70rem; 
+                width: 100%; 
+               
+                p{
+                    padding-bottom:1rem;
+                    font-size: 1.3rem;
+                    padding-left: 2rem; 
+                    padding-right: 2rem; 
+                }
+            }
+    
+            > div:nth-child(6){
+                padding: 1rem; 
+                padding-top: 0;
+                position: static;
+                max-width: 70rem;
+                width: 100%;
+                p{
+                    padding-bottom:1rem;
+                    font-size: 1.3rem;
+                    padding-left: 2rem; 
+                    padding-right: 2rem;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .home_about{
+        .container{
+            border-left: 1px solid $gray-color;
+            border-right: 1px solid $gray-color;
+
+            background-color: $lightpink-color;
+            position: relative;
+            z-index: -2;
+            color: $primary-color;
+    
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 118rem; 
+            
+            .hand{
+    
+                position: absolute;
+                top: 0;
+                left: 0;
+    
+                max-width: 100%;
+                display: block;
+                height: auto; 
+                z-index: -1;
+                display: none; 
+            }
+    
+            .hand2{
+                position: absolute;
+                top: 23rem; //
+                left: 0;
+                max-width: 100%;
+                display: block; 
+                height: auto;
+                z-index: -1;
+                display: block; 
+            }
+            
+            > p:nth-child(3){
+                color: $orange-color;
+                font-size: 1.8rem;
+                font-weight: 700;
+                padding-top: 7rem;
+            }
+    
+            > p:nth-child(4){
+                color: $primary-color;
+                font-size: 1.8rem;
+                padding-top: 2rem;
+                width: 25rem;
+                font-weight: 600;
+                align-items: center;
+                text-align: center;
+            }
+    
+            > div:nth-child(5){
+                margin-top:10rem; //
+                padding: 1rem;
+                position: static; 
+                max-width: 70rem; 
+                width: 100%; 
+               
+                p{
+                    padding-bottom:2rem;
+                    font-size: 1.3rem;
+                    padding-left: 2rem; 
+                    padding-right: 2rem; 
+                }
+            }
+    
+            > div:nth-child(6){
+                padding: 1rem; 
+                padding-top: 0;
+                position: static;
+                max-width: 70rem;
+                width: 100%;
+                p{
+                    padding-bottom:1rem;
+                    font-size: 1.3rem;
+                    padding-left: 2rem; 
+                    padding-right: 2rem;
+                }
+            }
+        }
+    }
+}

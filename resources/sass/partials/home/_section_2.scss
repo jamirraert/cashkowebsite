@@ -1,0 +1,99 @@
+.section_2{
+    .container{
+        border-left: 1px solid $gray-color;
+        border-right: 1px solid $gray-color;
+
+        background-color: $white-color;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:center;
+        align-items: center;
+        
+        div{
+            padding: 3rem;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content:space-around;
+            align-items: center;
+
+            p{
+                color: $primary-color;
+                font-size: 1.5rem;
+                font-weight: 600;
+                width: 20%;
+                min-width: 25rem;
+                padding: 1rem;
+            }
+    
+            .img-gentree{
+                height: 12rem;
+                width: auto;
+            }
+    
+            .img-foxmont{
+                height: 12rem;
+                width: auto;
+               
+            }
+            .img-kaya{
+                height: 6rem;
+                width: auto;
+            }
+            .img-kickstart{
+                height: 6rem;
+                width: auto;
+            }
+    
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .section_2{
+        .container{
+            background-color: $white-color;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content:center;
+            align-items: center;
+            
+            div{
+                padding: 4rem 0;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content:space-around;
+                align-items: center;
+    
+                p{
+                    color: $primary-color;
+                    font-size: 1.5rem;
+                    font-weight: 600;
+                    width: 20%;
+                    min-width: 25rem;
+                    padding: 1rem;
+                    text-align: center;
+                }
+        
+                .img-gentree{
+                    height: 10rem;
+                    width: auto;
+                }
+        
+                .img-foxmont{
+                    height: 10rem;
+                    width: auto;
+                   
+                }
+                .img-kaya{
+                    height: 5rem;
+                    width: auto;
+                }
+                .img-kickstart{
+                    height: 5rem;
+                    width: auto;
+                }
+        
+            }
+        }
+    }
+}

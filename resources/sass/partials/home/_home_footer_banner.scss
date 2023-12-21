@@ -1,0 +1,249 @@
+.home_footer_banner{
+    .container{
+        background-color: $blue-color;
+        color: $white-color;
+        font-size: 1.2rem;
+
+        .container_adjustment{
+            padding: 2rem;
+            
+          
+            div{
+                position: relative;
+                .img-always{
+                    height: 3rem;
+                    width: auto;
+                    
+                    position: absolute;
+                    top:3rem;
+                    right: 0;
+                }
+
+                .img-ok{
+                    height: 6rem;
+                    width: auto;
+                    position: absolute;
+                    top:0;
+                    right: 2rem;
+                }
+
+                table{
+                    padding-top: 3rem;
+                    tr{
+                        .td-label{
+                            vertical-align: top;
+                            font-weight: 700;
+                            padding-right: 0.1rem;
+                            width: 8rem;
+                        }
+   
+                    }
+                }
+            }
+
+            display: flex;
+            justify-content: space-around;
+            div:first-child >p{
+                font-size: 1.7rem;
+                font-weight: 600;
+                padding-top: 3rem;
+                padding-bottom: 1rem;
+                width: 30rem;
+            }
+
+            div:nth-child(2) >p{
+                width: 22rem;
+                font-size: 1.2rem;
+                padding-bottom: 3rem;
+            }
+
+
+        }
+    }
+}
+
+@media screen and (max-width: 1147px) {
+    .home_footer_banner{
+        
+        .container{
+            display: block;
+            background-color: $blue-color;
+            color: $white-color;
+            font-size: 1rem;
+    
+            .container_adjustment{
+                padding: 2rem;
+                display: block;
+                div{
+                    position: relative;
+                    .img-always{
+                        height: 2rem;
+                        width: auto;
+                        position: absolute;
+                        left: 16rem;
+                        top: 3rem;
+                    }
+    
+                    .img-ok{
+                        height: 6rem;
+                        width: auto;
+    
+                        position: absolute;
+                        right: -2rem;
+                        top: -10.5rem;
+                    }
+    
+                    table{
+                        padding-top: 2rem;
+                        tr{
+                            .td-label{
+                                vertical-align: top;
+                                font-size: 0.9rem;
+                                font-weight: 700;
+                                padding-right: 0.1rem;
+                                width: 6.4rem;
+                            }
+    
+                            .td-content{
+                                font-size: 0.9rem;
+                            }
+                        }
+                    }
+                }
+    
+                div:first-child >p{
+                    font-size: 1.4rem;
+                    font-weight: 600;
+                    padding-top: 3rem;
+                    padding-bottom: 1rem;
+                    width: 100%;
+                }
+
+                div:nth-child(2) >p{
+                    width: 100%;
+                    font-size: 1.2rem;
+                    padding-bottom: 0rem;
+                }
+    
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 623px) {
+    .home_footer_banner{
+        .container{
+            background-color: $blue-color;
+            color: $white-color;
+            font-size: 1rem;
+    
+            .container_adjustment{
+                padding: 2rem;
+    
+                div{
+                    position: relative;
+                    .img-always{
+                        height: 2rem;
+                        width: auto;
+                        position: absolute;
+                        left: 16rem;
+                        top: 3rem;
+                    }
+    
+                    .img-ok{
+                        height: 6rem;
+                        width: auto;
+    
+                        position: absolute;
+                        right: -2rem;
+                        top: -12.5rem;
+                    }
+    
+                    table{
+                        padding-top: 2rem;
+                        tr{
+                            .td-label{
+                                vertical-align: top;
+                                font-size: 0.9rem;
+                                font-weight: 700;
+                                padding-right: 0.1rem;
+                                width: 6.4rem;
+                            }
+    
+                            .td-content{
+                                font-size: 0.9rem;
+                            }
+                        }
+                    }
+                }
+    
+                div:first-child >p{
+                    font-size: 1.4rem;
+                    font-weight: 600;
+                    padding-top: 3rem;
+                    padding-bottom: 1rem;
+                }
+    
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 439px) {
+    .home_footer_banner{
+        .container{
+            background-color: $blue-color;
+            color: $white-color;
+            font-size: 1rem;
+    
+            .container_adjustment{
+                padding: 2rem;
+    
+                div{
+                    position: relative;
+                    .img-always{
+                        height: 2rem;
+                        width: auto;
+                        position: absolute;
+                        left: -1rem;
+                        top: 5rem;
+                    }
+    
+                    .img-ok{
+                        height: 6rem;
+                        width: auto;
+    
+                        position: absolute;
+                        right: -2rem;
+                        top: -14rem;
+                    }
+    
+                    table{
+                        padding-top: 2rem;
+                        tr{
+                            .td-label{
+                                vertical-align: top;
+                                font-size: 0.9rem;
+                                font-weight: 700;
+                                padding-right: 0.1rem;
+                                width: 6.4rem;
+                            }
+    
+                            .td-content{
+                                font-size: 0.9rem;
+                            }
+                        }
+                    }
+                }
+    
+                div:first-child >p{
+                    font-size: 1.4rem;
+                    font-weight: 600;
+                    padding-top: 3rem;
+                    padding-bottom: 1rem;
+                }
+    
+            }
+        }
+    }
+}

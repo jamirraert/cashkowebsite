@@ -1,0 +1,48 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: $ligthgray-color;
+    line-height: 1.5;
+    user-select: none;
+}
+
+.container{
+    width: $container-lg;
+    margin: 0 auto;
+}
+
+
+img {
+    display: block;
+    width: 100%;
+}
+
+h1, h2, h3, h4, h5 {
+    line-height: 1.2;
+}
+
+section{
+    margin-top: 6rem;
+}
+
+.btn_big{
+    @include button_big();
+}
+
+.btn{
+    @include button();
+}
+.btn_vdetail{
+    @include button_vdetail();
+}
+
+.btn_blue{
+    @include button($white-color, $blue-color);
+}
+
+.btn-primary{
+    @include button($white-color, $primary-color)
+}
