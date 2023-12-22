@@ -46,3 +46,10 @@ section{
 .btn-primary{
     @include button($white-color, $primary-color)
 }
+
+@media screen and (max-width: 600px) {
+    .container{
+        width: $container-md;
+        margin: 0 auto;
+    }
+}

@@ -3,7 +3,7 @@
         <div class="container_adjustment">
             <div>
                 <div>
-                    <p>Our CashKO agents are always available to walk you through our micronsurance process.</p>
+                    <p>Our CashKO agents are always available to walk you through our microinsurance process.</p>
                     <img src="{{ asset('images/CashKO_Accent-2.png') }}" class="img-always" />
                 </div>
                 <div>
@@ -19,15 +19,15 @@
                     </tr>
                     <tr>
                         <td class="td-label">Toll-Free:</td>
-                        <td class="td-content">1800 1320 0211</td>
+                        <td class="td-content"> 1800 1320 0211</td>
                     </tr>
                     <tr>
                         <td class="td-label">Globe:</td>
-                        <td class="td-content">(028) 876 1428</td>
+                        <td class="td-content"> (028) 876 1428</td>
                     </tr>
                     <tr>
                         <td class="td-label">PLDT:</td>
-                        <td class="td-content">(032) 342 7826</td>
+                        <td class="td-content"> (032) 342 7826</td>
                     </tr>
                     <tr>
                         <td colspan="2">&nbsp;</td>
