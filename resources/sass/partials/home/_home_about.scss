@@ -1,5 +1,7 @@
 .home_about{
     .container{
+        border-left: 1px solid $gray-color;
+        border-right: 1px solid $gray-color;
         background-color: $lightpink-color;
         position: relative;
         z-index: -2;
