@@ -22,7 +22,7 @@
         <img src="{{ asset('images/bigdot.png') }}" class="bigdot">
         <div>
             <p>60% faster claims turnaround time</p>
-            <span>versus traditional insurance providers</span>
+            <span>(versus traditional insurance providers)</span>
         </div>    
         <img src="{{ asset('images/bigdot.png') }}" class="bigdot">
         <p>
@@ -42,8 +42,8 @@
             <p>While everyone needs insurance, we focus on programs for lower-income households across the country—the ones who need it the most. The good news is that these households have both the demand and budget for tailored microinsurance policies.</p>
         </div>
         <div>
-            <p>Thanks to our nationwide and digital presence, it’s easy for us to partner with local financial institutions to deliver targeted microinsurance programs to Filipino families. This access allows us to provide faster claims turnaround times and deliver accessible insurance programs that work. Grassroots reach is fundamental to CashKO’s operations. </p>
-            <p>We work closely with partners to design insurance services based on specific customer needs, as well as market these services to the local community. This hands-on approach has allowed CashKO to rapidly expand across RuralNet’s network of rural banks, thrift banks, cooperatives, and microfinance institutions.</p>
+            <p>Thanks to our nationwide and digital presence, it’s easy for us to partner with local financial institutions to deliver targeted microinsurance programs to Filipino families. This access allows us to provide faster claims turnaround times and deliver accessible insurance programs that work.  </p>
+            <p>Grassroots reach is fundamental to CashKO’s operations. We work closely with partners to design insurance services based on specific customer needs, as well as market these services to the local community. This hands-on approach has allowed CashKO to rapidly expand across RuralNet’s network of rural banks, thrift banks, cooperatives, and microfinance institutions.</p>
         </div>
     </div>
 </div>
