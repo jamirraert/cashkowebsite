@@ -71,11 +71,12 @@ footer{
 @media screen and (max-width: 600px) {
     footer{
         .container{
-            height: 11rem;
+            height: 13rem;
            display: block;
            #f_left{
                 display: flex;
                 flex-direction: column;
+                padding-top: 1.3rem;
                 span{
                     margin-top: 0.5rem;
                 }
