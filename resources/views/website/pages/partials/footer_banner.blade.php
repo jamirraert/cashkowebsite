@@ -34,7 +34,7 @@
                     </tr>
                     <tr>
                         <td class="td-label">Address:</td>
-                        <td class="td-content">2/F 1830 South I.T. Bldg Brgy, Cebu City, 6000 Cebu</td>
+                        <td class="td-content">2F, RuralNet, Inc., 1830 South Building, Arcenas Estate, Brgy. Labangon, Cebu City, Cebu</td>
                     </tr>
                 </table>
             </div>
