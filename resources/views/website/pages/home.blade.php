@@ -33,7 +33,7 @@
 
 <div class='home_about'>
     <div class="container">
-        <img src="{{ asset('images/output-onlinepngtools.png') }}" class="hand">
+        <img src="{{ asset('images/cashko-about-desktop.png') }}" class="hand">
         <img src="{{ asset('images/output-onlinepngtools-mobile.png') }}" class="hand2">
         <p>ABOUT</p>
         <p>CashKO’s goal is to build insurance solutions that make a difference in the lives of Filipinos.</p>

@@ -381,7 +381,7 @@
                 font-size: 1.8rem;
                 padding-top: 2rem;
                 width: 34rem;
-                font-weight: 600;
+                font-weight: 700;
                 align-items: center;
                 text-align: center;
             }
@@ -470,7 +470,7 @@
                 font-size: 1.6rem;
                 padding-top: 2rem;
                 width: 25rem;
-                font-weight: 600;
+                font-weight: 700;
                 align-items: center;
                 text-align: center;
             }
@@ -539,7 +539,7 @@
     
             .hand2{
                 position: absolute;
-                top: 24.5rem; //
+                top: 21rem; //
                 left: 0;
                 max-width: 100%;
                 display: block; 
@@ -557,16 +557,16 @@
     
             > p:nth-child(4){
                 color: $primary-color;
-                font-size: 1.8rem;
+                font-size: 1.6rem;
                 padding-top: 2rem;
                 width: 21rem;
-                font-weight: 600;
+                font-weight: 700;
                 align-items: center;
                 text-align: center;
             }
     
             > div:nth-child(5){
-                margin-top:10rem; //
+                margin-top:12rem; //
                 padding-bottom: 1rem;
                 position: static; 
                 max-width: 70rem; 
