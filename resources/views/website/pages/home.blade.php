@@ -52,7 +52,7 @@
     <div class="container">
         <div>
             <p>
-                CashKO is backed by the Philippines’ leading venture capital firms.
+                CashKO’s parent company, RuralNet, is backed by the Philippines’ leading venture capital firms.
             </p>
             <img src="{{ asset('images/logo-gentree.png') }}" class="img-gentree" />
             <img src="{{ asset('images/logo-foxmont.jpeg') }}" class="img-foxmont" />
@@ -74,17 +74,17 @@
            <div class="card-cashko">
                 <img src="{{ asset('images/CashKo-Tertiatry-Descriptor-FW-10.png') }}" class="img-cashko" />
                 <p>Our microinsurance plans are made-to-measure according to the specific needs of partners and their communities.</p>
-                <a href="#" class="btn">Learn More</a>
+                <a href="https://micro.cashko-insurance.com" target="_blank" class="btn">Learn More</a>
            </div> 
            <div class="card-sme">
                 <img src="{{ asset('images/CashKo-Primary-Descriptor-FW-01.png') }}" class="img-sme" />
                 <p>We work closely with Filipino SMEs to come up with coverages and policies that employees can understand and easily access online.</p>
-                <a href="https://sme.cashko-insurance.com/" class="btn_blue">Learn More</a>
+                <a href="https://sme.cashko-insurance.com/" target="_blank" class="btn_blue">Learn More</a>
             </div> 
             <div class="card-ruralnet">
                 <img src="{{ asset('images/ruralnet Insurance solutions.png') }}" class="img-ruralnet" />
                 <p>RuralNet’s digital insurance distribution platform allows you to fully digitize the insurance process and make it more accessible to consumers.</p>
-                <a href="https://ruralnet.ph/" class="btn-primary">Learn More</a>
+                <a href="https://ruralnet.ph/insurance_solutions" target="_blank" class="btn-primary">Learn More</a>
             </div> 
         </div>
     </div>

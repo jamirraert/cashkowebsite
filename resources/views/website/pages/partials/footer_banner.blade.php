@@ -14,20 +14,20 @@
             <div>
                 <table>
                     <tr>
-                        <td class="td-label">Email:</td>
-                        <td class="td-content">support@ruralnet.ph</td>
-                    </tr>
-                    <tr>
-                        <td class="td-label">Toll-Free:</td>
-                        <td class="td-content"> 1800 1320 0211</td>
-                    </tr>
-                    <tr>
                         <td class="td-label">Globe:</td>
                         <td class="td-content"> (028) 876 1428</td>
                     </tr>
                     <tr>
                         <td class="td-label">PLDT:</td>
                         <td class="td-content"> (032) 342 7826</td>
+                    </tr>
+                    <tr>
+                        <td class="td-label">Toll-Free:</td>
+                        <td class="td-content"> 1800 1320 0211</td>
+                    </tr>
+                    <tr>
+                        <td class="td-label">Email:</td>
+                        <td class="td-content">support@ruralnet.ph</td>
                     </tr>
                     <tr>
                         <td colspan="2">&nbsp;</td>
