@@ -120,3 +120,11 @@ nav
         }
     }
 }
+
+@media screen and (max-width: 480px) {
+    .nav_logo {
+        img {
+            width: 173px !important;
+        }
+    }    
+}
