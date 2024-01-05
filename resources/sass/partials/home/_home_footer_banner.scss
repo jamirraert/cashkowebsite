@@ -29,12 +29,18 @@
 
                 table{
                     padding-top: 3rem;
+                    color: #fff !important;
                     tr{
                         .td-label{
                             vertical-align: top;
                             font-weight: 700;
                             padding-right: 0.1rem;
                             width: 8rem;
+                        }
+                        .td-content {
+                            & > p {
+                                width: 375px;
+                            }
                         }
    
                     }
