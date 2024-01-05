@@ -30,7 +30,7 @@
                 table{
                     padding-top: 3rem;
                     tr, td {
-                        color: white;
+                        color: $white-color !important;
                     }
                     tr{
                         .td-label{
