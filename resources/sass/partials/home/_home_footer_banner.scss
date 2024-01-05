@@ -29,7 +29,9 @@
 
                 table{
                     padding-top: 3rem;
-                    color: #fff !important;
+                    tr, td {
+                        color: white;
+                    }
                     tr{
                         .td-label{
                             vertical-align: top;

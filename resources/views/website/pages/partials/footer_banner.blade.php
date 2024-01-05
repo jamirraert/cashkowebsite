@@ -14,7 +14,7 @@
             <div>
                 <table>
                     <tr>
-                        <td class="td-label">Globe:</td>
+                        <td class="td-label">TestGlobe:</td>
                         <td class="td-content"> (028) 876 1428</td>
                     </tr>
                     <tr>
