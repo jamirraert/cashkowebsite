@@ -15,15 +15,15 @@
                 <table>
                     <tr>
                         <td class="td-label">TestGlobe:</td>
-                        <td class="td-content"> (028) 876 1428</td>
+                        <td class="td-content"> (0&zwnj;28) 87&zwnj;6 14&zwnj;28</td>
                     </tr>
                     <tr>
                         <td class="td-label">PLDT:</td>
-                        <td class="td-content"> (032) 342 7826</td>
+                        <td class="td-content"> (0&zwnj;32) 34&zwnj;2 78&zwnj;26</td>
                     </tr>
                     <tr>
                         <td class="td-label">Toll-Free:</td>
-                        <td class="td-content"> 1800 1320 0211</td>
+                        <td class="td-content"> 18&zwnj;00 13&zwnj;20 02&zwnj;11</td>
                     </tr>
                     <tr>
                         <td class="td-label">Email:</td>
