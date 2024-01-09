@@ -5,8 +5,10 @@
         font-size: 1.2rem;
 
         .container_adjustment{
-            padding: 2rem;
-            
+            padding: 2rem;    
+            .table-custom {
+                overflow-x: hidden !important;
+            }        
           
             div{
                 position: relative;
@@ -114,6 +116,9 @@
     
                             .td-content{
                                 font-size: 0.9rem;
+                                .disc {
+                                    width: 273px;
+                                }
                             }
                         }
                     }
@@ -239,7 +244,13 @@
     
                             .td-content{
                                 font-size: 0.9rem;
+                                .disc {
+                                    width: 241px;
+                                }
                             }
+                        }
+                        .dic {
+                            width: 230px;
                         }
                     }
                 }

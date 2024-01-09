@@ -11,7 +11,7 @@
                     <img src="{{ asset('images/cashko-hand-blue-transparen.png') }}" class="img-ok" />
                 </div>
             </div>
-            <div>
+            <div class="table-custom">
                 <table>
                     <tr>
                         <td class="td-label">TestGlobe:</td>
