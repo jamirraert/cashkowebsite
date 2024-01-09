@@ -51,13 +51,13 @@
 <div class='section_2'>
     <div class="container">
         <div>
-            <p>
+            <p class="item-1 items">
                 CashKO’s parent company, RuralNet, is backed by the Philippines’ leading venture capital firms.
             </p>
-            <img src="{{ asset('images/logo-gentree.png') }}" class="img-gentree" />
-            <img src="{{ asset('images/logo-foxmont.jpeg') }}" class="img-foxmont" />
-            <img src="{{ asset('images/logo-kaya.png') }}" class="img-kaya" />
-            <img src="{{ asset('images/logo-kickstart.png') }}" class="img-kickstart" />
+            <img src="{{ asset('images/logo-kickstart.png') }}" class="img-kickstart items" />
+            <img src="{{ asset('images/logo-gentree.png') }}" class="img-gentree items" />
+            <img src="{{ asset('images/logo-foxmont.jpeg') }}" class="img-foxmont items" />
+            <img src="{{ asset('images/logo-kaya.png') }}" class="img-kaya items" />
         </div>
     </div>
 </div>  
