@@ -14,7 +14,7 @@
             <div class="table-custom">
                 <table>
                     <tr>
-                        <td class="td-label">TestGlobe:</td>
+                        <td class="td-label">Globe:</td>
                         <td class="td-content"> (0&zwnj;28) 87&zwnj;6 14&zwnj;28</td>
                     </tr>
                     <tr>
