@@ -4,7 +4,7 @@
 <div class='main_banner'>
     <div class="container">
         <p>
-            Walang kompromiso sa CashKOOOOO!
+            Walang kompromiso sa CashKO!
             <img src="{{ asset('images/CashKO_Accent-3.png') }}" class="line-cashko">
         </p>
         <p>
