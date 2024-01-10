@@ -107,14 +107,9 @@
             align-items: center;
             
             div{
-                padding: 4rem 0;
-                display: flex;
-                flex-wrap: wrap;
-                justify-content:space-around;
-                align-items: center;
-
+                
                 img {
-                    aspect-ratio: 4/1;
+                    aspect-ratio: 3/2;
                 }
     
                 p{
@@ -123,6 +118,7 @@
                     min-width: 17rem;
                     padding: 1.5rem !important;
                     text-align: center;
+                    font-size: 1rem !important;
                 }
         
             }
