@@ -33,9 +33,9 @@
             <div id="f_left">
                 <span><a href="/contact" style="color: #FE9202; cursor: pointer;">CONTACT US</a></span>
                 <div>
-                    <span>Globe: (028) 876 1428</span>
-                    <span>PLDT: (032) 342 7826</span>
-                    <span>Toll-Free: 1800 1320 0211</span>
+                    <span>Globe: (0&zwnj;28) 87&zwnj;6 14&zwnj;28</span>
+                    <span>PLDT: (0&zwnj;32) 34&zwnj;2 78&zwnj;26</span>
+                    <span>Toll-Free: 18&zwnj;00 13&zwnj;20 02&zwnj;11</span>
                     <span><a href="#">support@ruralnet.ph</a></span>
                 </div>
              </div>

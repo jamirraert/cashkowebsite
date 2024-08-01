@@ -5,8 +5,10 @@
         font-size: 1.2rem;
 
         .container_adjustment{
-            padding: 2rem;
-            
+            padding: 2rem;    
+            .table-custom {
+                overflow-x: hidden !important;
+            }        
           
             div{
                 position: relative;
@@ -29,12 +31,20 @@
 
                 table{
                     padding-top: 3rem;
+                    tr, td {
+                        color: $white-color;
+                    }
                     tr{
                         .td-label{
                             vertical-align: top;
                             font-weight: 700;
                             padding-right: 0.1rem;
                             width: 8rem;
+                        }
+                        .td-content {
+                            & > p {
+                                width: 375px;
+                            }
                         }
    
                     }
@@ -106,6 +116,9 @@
     
                             .td-content{
                                 font-size: 0.9rem;
+                                .disc {
+                                    width: 273px;
+                                }
                             }
                         }
                     }
@@ -231,7 +244,13 @@
     
                             .td-content{
                                 font-size: 0.9rem;
+                                .disc {
+                                    width: 241px;
+                                }
                             }
+                        }
+                        .dic {
+                            width: 230px;
                         }
                     }
                 }

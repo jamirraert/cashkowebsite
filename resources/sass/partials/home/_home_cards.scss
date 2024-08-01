@@ -14,19 +14,21 @@
             margin-top: -1rem;
             padding-bottom: 7rem;
 
+            .card-cashko, .card-ruralnet, .card-sme {
+                max-width: 20rem;
+                min-width: 21rem;
+                height: 22rem;
+            }
+
             .card-cashko{
                 background-color: $primary-color;
                 color: $white-color;
-                min-width: 17rem;
-                max-width: 21.612rem;
                 padding: 2rem;
 
                 border-radius: 2rem;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-
-                height: 22rem;
 
                 .img-cashko{
                     height: 8rem;
@@ -50,16 +52,13 @@
                 background-color: $white-color;
                 color: $primary-color;
 
-                min-width: 17rem;
-                max-width: 21.612rem;
+              
                 padding: 2rem;
 
                 border-radius: 2rem;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-
-                height: 22rem;
 
                 .img-sme{
                     height: 8rem;
@@ -83,8 +82,7 @@
                 background-color: $gray-color;
                 color: $primary-color;
 
-                min-width: 17rem;
-                max-width: 21.612rem;
+               
                 padding: 2rem;
 
                 border-radius: 2rem;
@@ -92,7 +90,7 @@
                 flex-direction: column;
                 align-items: center;
 
-                height: 22rem;
+              
                 .img-ruralnet{
                     height: 6rem;
                     width: auto;
@@ -112,5 +110,11 @@
                 margin-top: 2rem;
             }
         }
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .card-cashko, .card-ruralnet, .card-sme {
+        padding: 1rem !important;
     }
 }

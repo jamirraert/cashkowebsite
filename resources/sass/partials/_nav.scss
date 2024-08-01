@@ -23,6 +23,7 @@ nav
             align-items: center;
             img{
                 height: 69px;
+                width: 173px;
             }
         }
 
@@ -63,7 +64,7 @@ nav
 
             ul{
                 position: fixed;
-                right: 1%;
+                right: 0%;
                 top: 5rem;
                 flex-direction: column;
                 align-items: flex-start;
@@ -118,4 +119,12 @@ nav
             }
         }
     }
+}
+
+@media screen and (max-width: 480px) {
+    .nav_logo {
+        img {
+            width: 173px !important;
+        }
+    }    
 }
